@@ -1,0 +1,120 @@
+* {
+    font-family: arial, sans-serif;
+}
+.logo{
+    position: relative;
+    top: 15px;
+    padding-left: 12px;
+    height: 24px;
+    width: 74px;
+    margin-bottom: 38px;
+    display: flex;
+    vertical-align: middle;
+}
+
+label {
+    position: relative;
+    color: #d93025;
+    font-family: arial;
+    font-size: 20px;
+    top: 20px;
+    margin: 40px 35px;
+    font-weight: inherit;
+    font-style: inherit;
+    vertical-align: baseline;
+}
+
+.border-line{
+    position: relative;
+    top: 43px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.container{
+    position: relative;
+    top: 70px;
+    margin-left: 40px;
+}
+
+#heading-2{
+    height: 30px;
+    font-weight: inherit;
+    font-style: inherit;
+    text-decoration: none;
+    min-width: 167px;
+    width: 16%;
+    font-size: 16px;
+    min-height: 42px;
+    font-weight: 500;
+    color: #333;
+    vertical-align: middle;
+}
+
+.text{
+    float: left;
+    min-width: 167px;
+    width: 80px;
+    height: 42px;
+    color: #222;
+    font-size: 13px;
+    line-height: 24px;
+    vertical-align: middle;
+}
+
+.form-1>input, .form-2>input, .form-3>input{
+    position: relative;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+    width: 50%;
+    margin-top: 8px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu{
+	display: block;
+	position: absolute;
+	padding-left: 15px;
+    top: 15px;
+    right: 57px;
+	padding-right: 15px;
+	padding-top: 11px;
+}
+.acc{
+    top: 0;
+	display: block;
+	position: absolute;
+	padding-left: 0px;
+    top: 10px;
+    right: 10px;
+	padding-right: 15px;
+	padding-top: 8px;
+}
+
+.form-1>input{
+    width: 50%;
+    left: 50px;
+}
+
+.form-2>input{
+    width: 50%;
+    left: 216px;
+}
+
+.form-3>input{
+    width: 23.45%;
+    left: 216px;
+}
+
+#input-error{
+    left: 49px;
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid #4199ec;
+}
