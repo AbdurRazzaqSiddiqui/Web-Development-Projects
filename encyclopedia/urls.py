@@ -1,6 +1,6 @@
 from django.urls import path
 
-from .views import views
+import views
 import encyclopedia
 
 app_name = "encyclopedia"
