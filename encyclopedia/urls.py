@@ -1,7 +1,6 @@
 from django.urls import path
 
-import views
-import encyclopedia
+import . import views
 
 app_name = "encyclopedia"
 urlpatterns = [
